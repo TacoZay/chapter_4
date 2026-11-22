@@ -20,84 +20,83 @@ public class exercise12 {
                 //Convert the letter to the corresponding decimal value
                 remainingValue = Integer.parseInt(hexDigit);
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
                 //Display the results
                 System.out.printf("The binary value is %s", binary);
-
                 break;
             
             case "2":
                 //Convert the letter to the corresponding decimal value
                 remainingValue = Integer.parseInt(hexDigit);
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
                 }else if(remainingValue == 0){
-                    binary += "1";
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
                 }else if(remainingValue == 0){
-                    binary += "1";
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){       // at this point, can i still subtact to from the given remaining value?
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
                 }else if(remainingValue == 0){
-                    binary += "1";
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
                 }else if(remainingValue == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
@@ -109,39 +108,39 @@ public class exercise12 {
                 //Convert the letter to the corresponding decimal value
                 remainingValue = Integer.parseInt(hexDigit);
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
@@ -152,39 +151,39 @@ public class exercise12 {
                 //Convert the letter to the corresponding decimal value
                 remainingValue = Integer.parseInt(hexDigit);
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
@@ -196,39 +195,39 @@ public class exercise12 {
                 //Convert the letter to the corresponding decimal value
                 remainingValue = Integer.parseInt(hexDigit);
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
@@ -240,39 +239,39 @@ public class exercise12 {
                 //Convert the letter to the corresponding decimal value
                 remainingValue = Integer.parseInt(hexDigit);
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
@@ -281,33 +280,42 @@ public class exercise12 {
                 break;
 
             case "7":
-                //Check each placeholder to create the binary number
+                //Convert the letter to the corresponding decimal value
                 remainingValue = Integer.parseInt(hexDigit);
-                if((remainingValue - 8) >= 0){
+                //Check each plaecholder to create the binary number
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) >= 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) >= 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) >= 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
@@ -319,39 +327,39 @@ public class exercise12 {
                //Convert the letter to the corresponding decimal value
                 remainingValue = Integer.parseInt(hexDigit);
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
@@ -363,124 +371,127 @@ public class exercise12 {
                 //Convert the letter to the corresponding decimal value
                 remainingValue = Integer.parseInt(hexDigit);
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
+                //Display the results
+                System.out.printf("The binary value is %s", binary);
                 break;
 
             case "a":
                 //Convert the letter to the corresponding decimal value
                 remainingValue = 10;
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
-            
+
                 //Display the results
                 System.out.printf("The binary value is %s", binary);
                 break;
+
             case "b":
                 //Convert the letter to the corresponding decimal value
                 remainingValue = 11;
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
@@ -491,39 +502,39 @@ public class exercise12 {
                 //Convert the letter to the corresponding decimal value
                 remainingValue = 12;
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
@@ -535,45 +546,46 @@ public class exercise12 {
                 //Convert the letter to the corresponding decimal value
                 remainingValue = 13;
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
                 //Display the results
                 System.out.printf("The binary value is %s", binary);
                 break;
+
             case "e":
                 //Convert the letter to the corresponding decimal value
                 remainingValue = 14;
@@ -613,39 +625,39 @@ public class exercise12 {
                 //Convert the letter to the corresponding decimal value
                 remainingValue = 15;
                 //Check each plaecholder to create the binary number
-                if((remainingValue - 8) > 0){
+                if((remainingValue - 8) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 8;
                     binary += "1";
-                }else if((remainingValue - 8) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 8) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 4) > 0){
+                if((remainingValue - 4) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 4;
                     binary += "1";
-                }else if((remainingValue - 4) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 4) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 2) > 0){
+                if((remainingValue - 2) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 2;
                     binary += "1";
-                }else if((remainingValue - 2) == 0){
-                    binary += "1";
+                }else if(remainingValue == 0){
+                    binary += "0";
                 } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
-                if((remainingValue - 1) > 0){
+                if((remainingValue - 1) >= 0){       // at this point, can i still subtact to from the given remaining value?
                     remainingValue -= 1;
                     binary += "1";
-                }else if((remainingValue - 1) == 0){
-                    binary += "1";
-                } else if ((remainingValue - 1) < 0){
+                }else if(remainingValue == 0){
+                    binary += "0";
+                } else if ((remainingValue - 2) < 0){
                     binary += "0";
                 }
 
