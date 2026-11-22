@@ -1,4 +1,4 @@
-package chapter_4;
+package chapter_4.exercises;
 /*4.11(Binary to decimal) Write a program that prompts the user to enter binary 
 digits and displays its corresponding decimal value.  */
 import java.util.Scanner;
